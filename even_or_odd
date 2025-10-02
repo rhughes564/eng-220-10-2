@@ -1,4 +1,6 @@
 n = int(inpput("N: "))
+if n<0:
+  exit()
 if n%2!=0:      # Change to logic expression n%2==0 -> n%2!=0
   print("Odd")
 else:
